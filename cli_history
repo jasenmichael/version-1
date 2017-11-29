@@ -1,12 +1,12 @@
- 1811  mkdir version-1
- 1812  cd version-1
- 1813  touch cli.md
- 1814  atom cli.md
- 1815  cat cli.md
- 1816  mkdir notes
- 1817  cd notes
- 1819  mv ../cli.md .
- 1820  cp cli.md cli-2.md
- 1821  ls 
- 1822  cd ..
- 1823  history | tail -n 12 > cli_history
+ 1987  touch cli.md && nano cli.md
+ 1988  cat cli.md
+ 1989  mkdir notes
+ 1990  cd notes
+ 1991  mv ../cli.md .
+ 1992  cp cli.md cli-2.md
+ 1993  ls
+ 1994  rm cli.md
+ 1995  mv cli-2.md cli.md
+ 1996  cd ..
+ 1997  rm -r notes
+ 1998  history | tail -n 12 > cli_history
